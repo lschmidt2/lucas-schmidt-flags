@@ -1,0 +1,114 @@
+#container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#column-left {
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#column-middle {
+    width: 5%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 20%;
+}
+
+#column-right {
+    width: 75%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 25%;
+}
+
+.row-top {
+    height: 45%;
+}
+
+.row-middle {
+    height: 10%;
+}
+
+.row-bottom {
+    height: 45%
+}
+
+#rect-top-right {
+    width: 75%;
+    height: 45%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#rect-bottom-left {
+    width: 20%;
+    height: 45%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#rect-bottom-right {
+    width: 75%;
+    height: 45%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#rect-middle-left {
+    width: 20%;
+    height: 10%;
+    position: absolute;
+    top: 45%;
+    left: 0;
+}
+
+.red {
+    background: red;
+}
+
+.blue {
+    background: #00BFFF;
+}
+
+.yellow{
+    background: yellow;
+}
+
+.white {
+    background: white;
+}
+
+@@ -9,3 +9,20 @@ html {
+body {
+ 	margin: 0;
+}
+
+/* Clear Float */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
